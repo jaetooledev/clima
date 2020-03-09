@@ -1,7 +1,7 @@
 <template>
-  <div class="container flex h-screen text-center overflow-hidden">
+  <div class="container flex h-screen mx-auto text-center overflow-hidden">
     <div
-      class="m-6 md:rounded-lg bg-white m-auto max-w-sm mx-auto shadow-2xl sm:rounded-lg"
+      class="m-6 md:rounded-lg bg-white m-auto max-w-sm shadow-2xl sm:rounded-lg"
     >
       <div class="sm:flex sm:items-center px-6 py-4 items-center text-center">
         <div class="text-center sm:text-left sm:flex-grow">
