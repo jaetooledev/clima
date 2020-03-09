@@ -1,7 +1,7 @@
 <template>
   <div class="container flex h-screen text-center overflow-hidden">
     <div
-      class="m-6 md:rounded-lg bg-white m-auto max-w-sm shadow-2xl sm:rounded-lg"
+      class="m-6 md:rounded-lg bg-white m-auto max-w-sm mx-auto shadow-2xl sm:rounded-lg"
     >
       <div class="sm:flex sm:items-center px-6 py-4 items-center text-center">
         <div class="text-center sm:text-left sm:flex-grow">
@@ -17,14 +17,6 @@
               <p class="text-sm" v-if="currentTemprature >= 10">It's pretty nice outside currently!</p>
             </div>
           </div>
-          <!-- <div class="flex flex-wrap">
-            <button
-              class="text-xs font-semibold rounded-full px-4 py-1 mx-3 leading-normal bg-white border border-blue text-blue hover:bg-blue hover:text-white"
-            >Call</button>
-            <button
-              class="text-xs font-semibold rounded-full px-4 py-1 leading-normal bg-white border border-purple text-purple hover:bg-purple hover:text-white"
-            >Message</button>
-          </div> -->
         </div>
       </div>
     </div>
